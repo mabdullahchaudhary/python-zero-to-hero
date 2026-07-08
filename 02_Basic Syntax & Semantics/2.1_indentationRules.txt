@@ -1,0 +1,14 @@
+
+
+2.1 Indentation Rules and PEP 8 Guidelines:
+
+
+1. Indentation is used to define the structure of code blocks in Python. Each level of indentation typically consists of four spaces.
+
+2. Consistent indentation is crucial for code readability and to avoid syntax errors. Mixing tabs and spaces can lead to unexpected behavior.
+
+3. PEP 8, the Python Enhancement Proposal that provides guidelines for writing Python code, recommends using spaces over tabs for indentation.
+
+4. When writing code, ensure that all lines within the same block of code are indented at the same level. For example, all lines within a function or loop should have the same indentation.
+
+5. Avoid excessive indentation, as it can make code harder to read. If a block of code becomes too deeply nested, consider refactoring it into smaller functions or using other control structures.

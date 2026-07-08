@@ -1,0 +1,9 @@
+
+2.2 Comments and Docstrings
+
+
+
+In Python, comments are used to explain code and make it more readable. They are ignored by the Python interpreter and do not affect the execution of the program. Comments can be added using the `#` symbol for single-line comments or triple quotes (`'''` or `"""`) for multi-line comments.
+
+
+and the docstrings are used to document functions, classes, and modules. They provide a convenient way to describe what a particular piece of code does. Docstrings are enclosed in triple quotes and can span multiple lines. They can be accessed using the `__doc__` attribute of the object.
