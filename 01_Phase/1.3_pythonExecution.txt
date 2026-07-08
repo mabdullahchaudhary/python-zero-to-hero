@@ -1,0 +1,31 @@
+
+
+1.3 Python Execution Model: Understanding how Python code translates to bytecode and runs on the Python Virtual Machine.
+
+
+
+
+When we write python code like (print("Hello World!")) the computer do not understand it because the computer only understand the binary language 0's and 1's so for this we need to convert this into machine code and this process called Execution Model.
+
+
+
+So for this we have few step :
+
+=> Source Code reading and tokenization:
+
+First of all it will read the line of codes (Source Code) not be like a raw text. It will break this into chunks or tokens for example we have a code x=5 so it read like a x, =, 5 in small chunks or tokens and this process is called a Lexical Analysis.
+
+=> Parsing:
+
+After it convert the code into small chunks python will convert these chunks into tree like structure called AST(Abstract syntax tree).
+
+=> Compilation(ByteCode Generation):
+
+Python convert this AST into the ByteCode. It's just a set of instructions be like a (load_const,Binary_op) and save this bytecode into the folder name (_pycache_) with the extension of .pyc it will help us to not recompile the code if we can't change the code.
+
+=> PVM (Python Virtual Machine):
+It is the actuall step where code's execute or runs it just run a loop and the loop read the instructions which we have saved in ByteCode and execute them one by one and call the c-level functions 
+
+
+
+In old version of python it runs line by line (interprete) but now it use JIT (just in time) who saved more time than previously.
