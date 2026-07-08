@@ -1,0 +1,13 @@
+
+
+1.5 Package Management: Installing & Managing Libraries Efficiently
+
+PYPL is the Python Package Index, a repository of software for the Python programming language. It allows users to find and install packages developed and shared by the Python community.
+
+=> pip is the package installer for Python. It allows you to install and manage additional libraries and dependencies that are not distributed as part of the standard library. But pip only installs packages from the Python Package Index (PyPI) and other indexes. It does not handle or manage the version of the packages installed. For that, you can use virtual environments.
+
+=> pip-tools is a set of command line tools to help you keep your pip-based packages fresh, even when you have many dependencies. In this we create a file named requirements.in where we list all the packages we want to install. Then we run pip-compile to generate a requirements.txt file that contains all the packages and their dependencies, pinned to specific versions. Finally, we can use pip-sync to install the packages listed in requirements.txt.
+
+=> Poetry is a dependency management and packaging tool for Python. It allows you to declare the libraries your project depends on and it will manage (install/update) them for you. Poetry uses a pyproject.toml file to manage dependencies, which makes it easier to maintain and share your project. 
+
+=> uv is a lightweight and fast package manager for Python. It can do both task which the poetry and pip-tools can do. It allows you to manage dependencies, create virtual environments, and install packages from PyPI or other sources. uv is designed to be simple and efficient, making it a great choice for managing Python projects.It is written in Rust, which makes it fast and efficient.
