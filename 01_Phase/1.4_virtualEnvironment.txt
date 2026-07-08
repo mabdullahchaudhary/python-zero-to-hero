@@ -1,0 +1,17 @@
+
+
+Why do we need a Virtual Environment ?
+
+Imagine we have 2 Projects (A & B) both are using 2 different versions of the same library. If we install the library globally, it will create a conflict between the two projects. A virtual environment allows us to create isolated environments for each project, so that they can have their own dependencies and versions of libraries without interfering with each other. This ensures that each project runs smoothly and avoids version conflicts.
+
+
+We have 3 main tools to create a virtual environment in Python:
+
+1. venv: 
+This is the built-in module in Python 3.3 and above. It allows you to create lightweight virtual environments with their own site directories, optionally isolated from system site directories.
+
+2. virtualenv:
+This is a third-party package that provides more advanced features for creating virtual environments. It is compatible with older versions of Python and offers additional customization options but not in used today's projects.
+
+3.uv:
+This is modern and fast tool for creating virtual environments. It is designed to be simple and efficient, making it a popular choice for developers who want to quickly set up isolated environments for their projects.
