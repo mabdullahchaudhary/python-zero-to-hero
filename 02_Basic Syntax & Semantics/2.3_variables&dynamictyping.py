@@ -14,3 +14,4 @@ print(age)
 age=30
 print(type(age))
 
+print(age)
